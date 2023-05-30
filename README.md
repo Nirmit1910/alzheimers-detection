@@ -161,6 +161,14 @@ The following table shows the evaluation metrics for different models used in th
 
 
 
+## Overall Accuracy of all Models Comparison Plot
+
+![image](https://github.com/bprithiraj/alzheimers-detection/assets/77446629/f4b588dc-b8ea-4675-af7e-ec72f5868436)
+
+This plot shows that we get our highest accuracies from our **Conventional CNN model** and **PCA-SVM model** . While other models have also acquired quite decent accuracies.
+
+
+
 ## Future Scope and Limitations
 - Larger and more diverse datasets: Acquiring larger and more diverse datasets can help improve the performance and generalizability of the CNN model.
 - Multi-modal data fusion: Incorporating multiple imaging modalities, such as functional MRI (fMRI), positron emission tomography (PET), or cerebrospinal fluid (CSF) biomarkers, along with MRI data, can provide complementary information for more accurate prediction. 
