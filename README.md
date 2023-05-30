@@ -97,6 +97,43 @@ validation_generator = validation_datagen.flow_from_directory(validation_dir, ta
 test_generator = test_datagen.flow_from_directory(test_dir, target_size=(128, 128), shuffle=True, seed=SEED, batch_size=64, class_mode='categorical')
 ```
 
+## AI Models Used
+
+The project incorporates the following AI models for Alzheimer's disease classification:
+
+### 1. CNN Models
+
+The project utilizes various CNN models for classification:
+
+- Custom CNN architecture
+- CNN (Convolutional Neural Network)
+
+### 2. Transfer Learning Models
+
+The project employs transfer learning using pre-trained models:
+
+- VGG16
+- VGG19
+- ResNet
+- MobileNetV2
+- InceptionV3
+- DenseNet169
+- EfficientNetb0
+
+### 3. Machine Learning Models
+
+The project includes traditional machine learning algorithms for classification:
+
+- Logistic Regression
+- SVM (Support Vector Machine)
+- Random Forest
+
+### 4. Hybrid Deep Learning Models
+
+The project implements hybrid deep learning models combining deep learning with other algorithms:
+
+- Alzheimer-CNN-with-XGBoost-GNB-SVM: A hybrid model combining CNN with XGBoost, Gaussian Naive Bayes (GNB), and SVM algorithms.
+- Alzheimer-VGG-with-SVM-GNB-XGBoost: A hybrid model combining VGG16 with SVM, GNB, and XGBoost algorithms.
 
 
 
