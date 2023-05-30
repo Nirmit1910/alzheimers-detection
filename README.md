@@ -19,6 +19,17 @@ The project utilizes the ["Alzheimer MRI Preprocessed Dataset"](https://www.kagg
 
 The dataset provides a diverse set of brain MRI images collected from several websites, hospitals, and public repositories. The images have been preprocessed and resized, making them suitable for further analysis and classification.
 
+## Technologies Used
+
+The following technologies are utilized in the project:
+
+- TensorFlow: An open-source machine learning framework used for building and training deep learning models.
+- Keras: A high-level neural networks API that runs on top of TensorFlow. It provides an intuitive interface for designing and training models.
+- Pandas: A powerful data manipulation library used for data preprocessing and analysis.
+- Matplotlib: A popular plotting library used for data visualization, including the visualization of MRI images and performance metrics.
+- NumPy: A fundamental library for scientific computing in Python, used for numerical operations and array manipulation.
+- Scikit-learn: A machine learning library that provides tools for data preprocessing, model evaluation, and performance metrics.
+
 ## Project Steps
 
 This Github repository contains code and resources related to the development of machine learning models for the detection of Alzheimer's disease using various AI methods.
