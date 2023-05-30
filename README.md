@@ -19,15 +19,13 @@ The specific objectives of the project are as follows:
 
 3. Evaluate the trained models using appropriate evaluation metrics and compare their performance to identify the most effective model.
 
-4. Visualize the results, including the MRI images, model predictions, and evaluation metrics, to facilitate interpretation and analysis.
-
-5. Create a comprehensive report summarizing the project, including the methodology, results, limitations, and potential areas for further improvement.
+4. Visualize the results, including the MRI images, model predictions, and evaluation metrics, to facilitate interpretation and analysis. Create a comprehensive report summarizing the project, including the methodology, results, limitations, and potential areas for further improvement.
 
 ## Dataset: Alzheimer MRI Preprocessed Dataset
 
 <img align="center" alt="img" src="https://user-images.githubusercontent.com/77446629/242084454-97acbe96-06cb-4eda-a236-2476db3f165a.png" padding="3px"  />
 
-The project utilizes the ["Alzheimer MRI Preprocessed Dataset"](https://www.kaggle.com/tourist55/alzheimers-dataset-4-class-of-images) obtained from Kaggle. The dataset consists of 6400 preprocessed MRI images, resized to 128 x 128 pixels, representing different stages of Alzheimer's disease.
+The project utilizes the [Alzheimer MRI Preprocessed Dataset](https://www.kaggle.com/tourist55/alzheimers-dataset-4-class-of-images) obtained from Kaggle. The dataset consists of 6400 preprocessed MRI images, resized to 128 x 128 pixels, representing different stages of Alzheimer's disease.
 
 ### Dataset Details
 
@@ -38,11 +36,8 @@ The project utilizes the ["Alzheimer MRI Preprocessed Dataset"](https://www.kagg
   - Class 3: Non Demented (3200 images)
   - Class 4: Very Mild Demented (2240 images)
 
-The dataset provides a diverse set of brain MRI images collected from several websites, hospitals, and public repositories. The images have been preprocessed and resized, making them suitable for further analysis and classification.
 
 ## Technologies Used
-
-The following technologies are utilized in the project:
 
 - TensorFlow: An open-source machine learning framework used for building and training deep learning models.
 - Keras: A high-level neural networks API that runs on top of TensorFlow. It provides an intuitive interface for designing and training models.
@@ -105,8 +100,7 @@ The project incorporates the following AI models for Alzheimer's disease classif
 
 The project utilizes various CNN models for classification:
 
-- Custom CNN architecture
-- CNN (Convolutional Neural Network)
+- Custom CNN architecture :  [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/CNN/alzheimer-detection-cnn(1).ipynb)
 
 ### 2. Transfer Learning Models
 
@@ -120,16 +114,17 @@ The project employs transfer learning using pre-trained models:
 - InceptionV3: [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Transfer%20Learning/alzeihmer-inceptionv3.ipynb)
 - DenseNet169: [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Transfer%20Learning/alzeihmer-densenet169.ipynb)
 - EfficientNetb0: [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Transfer%20Learning/alzeihmer-efficientnetb0.ipynb)
-- CNN: [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Transfer%20Learning/alzeihmer-cnn.ipynb)
 
 
 ### 3. Machine Learning Models
 
-The project includes traditional machine learning algorithms for classification:
+The project includes PCA feature extraction and processing along with traditional machine learning algorithms for classification: 
+[Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Machine%20Learning/alzeihmer-pca-ml.ipynb)
 
 - Logistic Regression
 - SVM (Support Vector Machine)
 - Random Forest
+
 
 ### 4. Hybrid Deep Learning Models
 
