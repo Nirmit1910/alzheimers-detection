@@ -112,13 +112,16 @@ The project utilizes various CNN models for classification:
 
 The project employs transfer learning using pre-trained models:
 
-- VGG16
-- VGG19
-- ResNet
-- MobileNetV2
-- InceptionV3
-- DenseNet169
-- EfficientNetb0
+
+- VGG16: [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Transfer%20Learning/alzeihmer-vgg.ipynb)
+- VGG19: [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Transfer%20Learning/alzeihmer-vgg.ipynb)
+- ResNet: [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Transfer%20Learning/alzeihmer-resnet.ipynb)
+- MobileNetV2: [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Transfer%20Learning/alzeihmer-mobilenetv2.ipynb)
+- InceptionV3: [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Transfer%20Learning/alzeihmer-inceptionv3.ipynb)
+- DenseNet169: [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Transfer%20Learning/alzeihmer-densenet169.ipynb)
+- EfficientNetb0: [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Transfer%20Learning/alzeihmer-efficientnetb0.ipynb)
+- CNN: [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Transfer%20Learning/alzeihmer-cnn.ipynb)
+
 
 ### 3. Machine Learning Models
 
