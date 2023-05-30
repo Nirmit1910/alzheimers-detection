@@ -133,10 +133,21 @@ The project implements hybrid deep learning models combining deep learning with 
 - Alzheimer-VGG-with-SVM-GNB-XGBoost: A hybrid model combining VGG16 with SVM, GNB, and XGBoost algorithms. [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Hybrid%20Learning/alzeihmer-vgg-with-svm-gnb-xgboost.ipynb)
 
 
+### Future Scope and Limitations
+- Larger and more diverse datasets: Acquiring larger and more diverse datasets can help improve the performance and generalizability of the CNN model.
+- Multi-modal data fusion: Incorporating multiple imaging modalities, such as functional MRI (fMRI), positron emission tomography (PET), or cerebrospinal fluid (CSF) biomarkers, along with MRI data, can provide complementary information for more accurate prediction. 
+- Longitudinal analysis: Alzheimer's disease is a progressive condition that evolves over time. Incorporating longitudinal data and analyzing disease progression can offer valuable insights into the temporal patterns and changes in brain structures.
+- Integration with clinical data: Combining MRI data with clinical information, such as cognitive test scores, medical history, genetic data, or lifestyle factors, can lead to a more comprehensive and accurate prediction model. 
+
+
+## References
+- https://www.biorxiv.org/content/10.1101/070441v4.full.pdf
+- https://www.proquest.com/openview/13f1237a0a57216debf783897664a462/1?pq-origsite=gscholar&cbl=4424409
+- https://www.mdpi.com/2075-4418/12/8/1833
+- https://www.sciencedirect.com/science/article/pii/S0010482521003310
+- https://philpapers.org/archive/ALMCOA.pdf
+- https://github.com/LinLLiu/AD
 
 
 
 
-## Project Steps
-
-This Github repository contains code and resources related to the development of machine learning models for the detection of Alzheimer's disease using various AI methods.
