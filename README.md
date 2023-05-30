@@ -1,4 +1,7 @@
-# HealthCoder - Alzheimer's Disease Classification using Brain MRI Images
+# **HealthCoder - Alzheimer's Disease Classification**
+
+<img align="right" height="200" alt="img" src="https://neurosciencenews.com/files/2023/03/alzheimers-ai-neurosicneces-public.jpg" padding="3px"  />
+
 
 ## Project Overview
 
@@ -12,17 +15,17 @@ The specific objectives of the project are as follows:
 
 1. Preprocess the MRI images to enhance their quality, remove noise, and standardize the data.
 
-2. Develop and train deep learning models using TensorFlow and Keras to accurately classify MRI images into different stages of Alzheimer's disease.
+2. Develop and train deep learning models using TensorFlow and Keras to accurately classify MRI images into different stages of Alzheimer's disease. Optimize and fine-tune the models to achieve high classification accuracy, precision, recall, and other performance metrics.
 
-3. Optimize and fine-tune the models to achieve high classification accuracy, precision, recall, and other performance metrics.
+3. Evaluate the trained models using appropriate evaluation metrics and compare their performance to identify the most effective model.
 
-4. Evaluate the trained models using appropriate evaluation metrics and compare their performance to identify the most effective model.
+4. Visualize the results, including the MRI images, model predictions, and evaluation metrics, to facilitate interpretation and analysis.
 
-5. Visualize the results, including the MRI images, model predictions, and evaluation metrics, to facilitate interpretation and analysis.
-
-6. Create a comprehensive report summarizing the project, including the methodology, results, limitations, and potential areas for further improvement.
+5. Create a comprehensive report summarizing the project, including the methodology, results, limitations, and potential areas for further improvement.
 
 ## Dataset: Alzheimer MRI Preprocessed Dataset
+
+<img align="center" alt="img" src="https://user-images.githubusercontent.com/77446629/242084454-97acbe96-06cb-4eda-a236-2476db3f165a.png" padding="3px"  />
 
 The project utilizes the ["Alzheimer MRI Preprocessed Dataset"](https://www.kaggle.com/tourist55/alzheimers-dataset-4-class-of-images) obtained from Kaggle. The dataset consists of 6400 preprocessed MRI images, resized to 128 x 128 pixels, representing different stages of Alzheimer's disease.
 
