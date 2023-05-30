@@ -93,13 +93,3 @@ test_generator = test_datagen.flow_from_directory(test_dir, target_size=(128, 12
 ```
 
 
-
-
-
-
-
-
-## Project Steps
-
-This Github repository contains code and resources related to the development of machine learning models for the detection of Alzheimer's disease using various AI methods.
-
