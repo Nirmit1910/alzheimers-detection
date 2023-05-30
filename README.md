@@ -167,6 +167,8 @@ The following table shows the evaluation metrics for different models used in th
 
 This plot shows that we get our highest accuracies from our **Conventional CNN model** and **PCA-SVM model** . While other models have also acquired quite decent accuracies.
 
+For more of these plots over different performance metrics such as loss, precison, recall, auc etc. do check out [comparison plots](https://github.com/SARIT42/alzheimers-detection/tree/main/Comparison/Plots) folder and the [comparison notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Comparison/all-model-comparison.ipynb).
+
 
 
 ## Future Scope and Limitations
@@ -177,6 +179,7 @@ This plot shows that we get our highest accuracies from our **Conventional CNN m
 
 
 ## References
+
 - https://www.biorxiv.org/content/10.1101/070441v4.full.pdf
 - https://www.proquest.com/openview/13f1237a0a57216debf783897664a462/1?pq-origsite=gscholar&cbl=4424409
 - https://www.mdpi.com/2075-4418/12/8/1833
@@ -185,5 +188,9 @@ This plot shows that we get our highest accuracies from our **Conventional CNN m
 - https://github.com/LinLLiu/AD
 
 
+## Authors/Contributors
 
+- [B. Prithiraj](https://github.com/bprithiraj)
+- [Nirmit Gupta](https://github.com/Nirmit1910)
+- [Sarit Samyak Rath](https://github.com/SARIT42)
 
