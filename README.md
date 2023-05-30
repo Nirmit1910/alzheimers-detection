@@ -133,6 +133,34 @@ The project implements hybrid deep learning models combining deep learning with 
 - Alzheimer-VGG-with-SVM-GNB-XGBoost: A hybrid model combining VGG16 with SVM, GNB, and XGBoost algorithms. [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Hybrid%20Learning/alzeihmer-vgg-with-svm-gnb-xgboost.ipynb)
 
 
+## Model Performances
+
+The following table shows the evaluation metrics for different models used in the HealthCoder project:
+
+### Transfer Learning and Conventional CNN
+
+| Model       | Test Loss | Test Accuracy | Test AUC | Test Precision | Test Recall |
+|-------------|-----------|---------------|----------|----------------|-------------|
+| VGG16       | 0.193     | 0.927         | 0.993    | 0.928          | 0.924       |
+| VGG19       | 0.279     | 0.897         | 0.986    | 0.898          | 0.891       |
+| ResNet      | 0.324     | 0.900         | 0.982    | 0.903          | 0.897       |
+| MobileNetV2 | 0.941     | 0.581         | 0.842    | 0.620          | 0.483       |
+| InceptionV3 | 0.426     | 0.858         | 0.974    | 0.867          | 0.852       |
+| DenseNet169 | 0.304     | 0.896         | 0.981    | 0.899          | 0.889       |
+| EfficientNetb0 | 0.110  | 0.962         | 0.997    | 0.964          | 0.962       |
+| CNN         | 0.035     | 0.991         | 0.999    | 0.991          | 0.991       |
+
+### Machine Learning Models
+
+
+|      Model            | Accuracy | Precision | Recall |
+|-----------------------|----------|-----------|--------|
+| Logistic Regression   |   0.75   |    0.81   |  0.73  |
+|        SVM            |   0.99   |    0.99   |  0.99  |
+|    Random Forest      |   0.71   |    0.64   |  0.42  |
+
+
+
 ## Future Scope and Limitations
 - Larger and more diverse datasets: Acquiring larger and more diverse datasets can help improve the performance and generalizability of the CNN model.
 - Multi-modal data fusion: Incorporating multiple imaging modalities, such as functional MRI (fMRI), positron emission tomography (PET), or cerebrospinal fluid (CSF) biomarkers, along with MRI data, can provide complementary information for more accurate prediction. 
