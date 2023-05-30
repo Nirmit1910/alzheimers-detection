@@ -1,5 +1,8 @@
 # HealthCoder - Alzheimer's Disease Classification using Brain MRI Images
 
+<img align="right" height="200" alt="img" src="https://neurosciencenews.com/files/2023/03/alzheimers-ai-neurosicneces-public.jpg" padding="3px"  />
+
+
 ## Project Overview
 
 HealthCoder is a project focused on the classification of Alzheimer's disease using advanced AI techniques and brain MRI (Magnetic Resonance Imaging) images. The goal of the project is to develop an accurate and robust model that can assist in the early detection and diagnosis of Alzheimer's disease.
