@@ -48,6 +48,55 @@ The following technologies are utilized in the project:
 - NumPy: A fundamental library for scientific computing in Python, used for numerical operations and array manipulation.
 - Scikit-learn: A machine learning library that provides tools for data preprocessing, model evaluation, and performance metrics.
 
+## Data Preprocessing and Augmentation
+
+In the initial steps of the project, the dataset of Alzheimer's disease brain MRI images undergoes preprocessing and augmentation to enhance the data quality and increase the robustness of the model. The following steps are performed:
+
+- Splitting the Dataset: The original dataset, obtained from Kaggle, is split into train, validation, and test sets.
+- Image Preprocessing: The images are resized to 128 x 128 pixels.
+- Data Augmentation: The training data is augmented using techniques such as rescaling, shearing, and zooming to increase its diversity and improve the model's ability to generalize.
+- Data Normalization: The validation and test data are rescaled for normalization.
+- Directory Setup: Directories are set up to specify the location of the split images for the train, validation, and test sets.
+- ImageDataGenerators: The Keras `ImageDataGenerator` is used to generate batches of augmented images for the training set and normalized images for the validation and test sets.
+- Class Mode: The class mode is set to 'categorical' to support multi-class classification.
+
+These steps ensure that the dataset is properly prepared for training and evaluating deep learning models for the classification of Alzheimer's disease using brain MRI images.
+
+Please refer to the code provided for more details on the implementation.
+
+import splitfolders
+from keras.preprocessing.image import ImageDataGenerator
+
+# Set the path of the directory containing the original images
+input_folder = '/kaggle/input/alzheimer-mri-dataset/Dataset'
+output_folder = '/kaggle/working/Splitted'
+train_ratio = 0.8
+validation_ratio = 0.1
+test_ratio = 0.1
+
+# Split the images into train-validation-test sets
+splitfolders.ratio(input_folder, output_folder, seed=42, ratio=(train_ratio, validation_ratio, test_ratio))
+
+# Define the ImageDataGenerators for data augmentation and normalization
+train_datagen = ImageDataGenerator(rescale=1./255, shear_range=0.2, zoom_range=0.2)
+validation_datagen = ImageDataGenerator(rescale=1./255)
+test_datagen = ImageDataGenerator(rescale=1./255)
+
+# Set the directories for train, validation, and test sets
+train_dir = '/kaggle/working/Splitted/train'
+validation_dir = '/kaggle/working/Splitted/val'
+test_dir = '/kaggle/working/Splitted/test'
+
+# Create generators for train, validation, and test sets
+train_generator = train_datagen.flow_from_directory(train_dir, target_size=(128, 128), shuffle=True, seed=SEED, batch_size=64, class_mode='categorical')
+validation_generator = validation_datagen.flow_from_directory(validation_dir, target_size=(128, 128), seed=SEED, shuffle=True, batch_size=64, class_mode='categorical')
+test_generator = test_datagen.flow_from_directory(test_dir, target_size=(128, 128), shuffle=True, seed=SEED, batch_size=64, class_mode='categorical')
+
+
+
+
+
+
 ## Project Steps
 
 This Github repository contains code and resources related to the development of machine learning models for the detection of Alzheimer's disease using various AI methods.
