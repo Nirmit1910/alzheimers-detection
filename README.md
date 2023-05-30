@@ -93,7 +93,7 @@ train_generator = train_datagen.flow_from_directory(train_dir, target_size=(128,
 validation_generator = validation_datagen.flow_from_directory(validation_dir, target_size=(128, 128), seed=SEED, shuffle=True, batch_size=64, class_mode='categorical')
 test_generator = test_datagen.flow_from_directory(test_dir, target_size=(128, 128), shuffle=True, seed=SEED, batch_size=64, class_mode='categorical')
 
-
+'''
 
 
 
