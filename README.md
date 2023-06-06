@@ -100,20 +100,20 @@ The project incorporates the following AI models for Alzheimer's disease classif
 The project utilizes various CNN models for classification:
 
 - Custom CNN architecture
-- CNN (Convolutional Neural Network) [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/CNN/alzheimer-detection-cnn%20(1).ipynb)
+- CNN (Convolutional Neural Network) [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/CNN/alzheimer-detection-cnn%20(1).ipynb)
 
 ### 2. Transfer Learning Models
 
 The project employs transfer learning using pre-trained models:
 
 
-- VGG16: [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Transfer%20Learning/alzeihmer-vgg.ipynb)
-- VGG19: [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Transfer%20Learning/alzeihmer-vgg.ipynb)
-- ResNet: [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Transfer%20Learning/alzheimer-resnet50.ipynb)
-- MobileNetV2: [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Transfer%20Learning/alzheimer-mobilenetv2.ipynb)
-- InceptionV3: [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Transfer%20Learning/alzheimers-inceptionv3.ipynb)
-- DenseNet169: [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Transfer%20Learning/alzheimer-densenet169.ipynb)
-- EfficientNetb0: [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Transfer%20Learning/alzheimer-efficientnetb0.ipynb)
+- VGG16: [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Transfer%20Learning/alzeihmer-vgg.ipynb)
+- VGG19: [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Transfer%20Learning/alzeihmer-vgg.ipynb)
+- ResNet: [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Transfer%20Learning/alzheimer-resnet50.ipynb)
+- MobileNetV2: [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Transfer%20Learning/alzheimer-mobilenetv2.ipynb)
+- InceptionV3: [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Transfer%20Learning/alzheimers-inceptionv3.ipynb)
+- DenseNet169: [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Transfer%20Learning/alzheimer-densenet169.ipynb)
+- EfficientNetb0: [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Transfer%20Learning/alzheimer-efficientnetb0.ipynb)
 
 
 
@@ -124,16 +124,16 @@ The project includes traditional machine learning algorithms for classification:
 - Logistic Regression
 - SVM (Support Vector Machine)
 - Random Forest
--  [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Machine%20Learning/alzheimer-pca-ml.ipynb)
+-  [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Machine%20Learning/alzheimer-pca-ml.ipynb)
 
 
 ### 4. Hybrid Deep Learning Models
 
 The project implements hybrid deep learning models combining deep learning with other algorithms:
 
-- Alzheimer-CNN-with-XGBoost-GNB-SVM: A hybrid model combining CNN with XGBoost, Gaussian Naive Bayes (GNB), and SVM algorithms. [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Hybrid%20Learning/alzeihmer-cnn-with-xgboost-gnb-svm.ipynb)
+- Alzheimer-CNN-with-XGBoost-GNB-SVM: A hybrid model combining CNN with XGBoost, Gaussian Naive Bayes (GNB), and SVM algorithms. [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Hybrid%20Learning/alzeihmer-cnn-with-xgboost-gnb-svm.ipynb)
 
-- Alzheimer-VGG-with-SVM-GNB-XGBoost: A hybrid model combining VGG16 with SVM, GNB, and XGBoost algorithms. [Implementation Notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Hybrid%20Learning/alzeihmer-vgg-with-svm-gnb-xgboost.ipynb)
+- Alzheimer-VGG-with-SVM-GNB-XGBoost: A hybrid model combining VGG16 with SVM, GNB, and XGBoost algorithms. [Implementation Notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Hybrid%20Learning/alzeihmer-vgg-with-svm-gnb-xgboost.ipynb)
 
 
 ## Model Performances
@@ -170,7 +170,7 @@ The following table shows the evaluation metrics for different models used in th
 
 This plot shows that we get our highest accuracies from our **Conventional CNN model** and **PCA-SVM model** . While other models have also acquired quite decent accuracies.
 
-For more of these plots over different performance metrics such as loss, precison, recall, auc etc. do check out [comparison plots](https://github.com/SARIT42/alzheimers-detection/tree/main/Comparison/Plots) folder and the [comparison notebook](https://github.com/SARIT42/alzheimers-detection/blob/main/Comparison/all-model-comparison.ipynb).
+For more of these plots over different performance metrics such as loss, precison, recall, auc etc. do check out [comparison plots](https://github.com/Nirmit1910/alzheimers-detection/tree/main/Comparison/Plots) folder and the [comparison notebook](https://github.com/Nirmit1910/alzheimers-detection/blob/main/Comparison/all-model-comparison.ipynb).
 
 
 
