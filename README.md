@@ -1,5 +1,8 @@
 # **HealthCoder - Alzheimer's Disease Classification**
 
+![image](https://github.com/Nirmit1910/alzheimers-detection/assets/65971697/eeec3530-cccd-42c1-a449-4bcfbe283f2a)
+
+
 <img align="right" height="200" alt="img" src="https://neurosciencenews.com/files/2023/03/alzheimers-ai-neurosicneces-public.jpg" padding="3px"  />
 
 
@@ -25,7 +28,7 @@ The specific objectives of the project are as follows:
 
 <img align="center" alt="img" src="https://user-images.githubusercontent.com/77446629/242084454-97acbe96-06cb-4eda-a236-2476db3f165a.png" padding="3px"  />
 
-The project utilizes the [Alzheimer MRI Preprocessed Dataset](https://www.kaggle.com/tourist55/alzheimers-dataset-4-class-of-images) obtained from Kaggle. The dataset consists of 6400 preprocessed MRI images, resized to 128 x 128 pixels, representing different stages of Alzheimer's disease.
+The project utilizes the [Alzheimer MRI Preprocessed Dataset](https://www.kaggle.com/datasets/sachinkumar413/alzheimer-mri-dataset) obtained from Kaggle. The dataset consists of 6400 preprocessed MRI images, resized to 128 x 128 pixels, representing different stages of Alzheimer's disease.
 
 ### Dataset Details
 
@@ -163,7 +166,7 @@ The following table shows the evaluation metrics for different models used in th
 
 ## Overall Accuracy of all Models Comparison Plot
 
-![image](https://github.com/bprithiraj/alzheimers-detection/assets/77446629/f4b588dc-b8ea-4675-af7e-ec72f5868436)
+![image](https://github.com/Nirmit1910/alzheimers-detection/assets/65971697/0f74ee71-646b-4b7f-9319-8af7cada0cbf)
 
 This plot shows that we get our highest accuracies from our **Conventional CNN model** and **PCA-SVM model** . While other models have also acquired quite decent accuracies.
 
